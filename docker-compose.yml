@@ -8,7 +8,6 @@ services:
         tty: true
         networks:
             - tnet2
-        command: tcpdump -nSt icmp
     rt2:
         image: tema1:latest
         volumes:
@@ -49,12 +48,12 @@ networks:
         ipam:
             driver: default
             config:
-                - subnet: 1.2.3.0/32
+                - subnet: 1.2.3.0/16
                   gateway: 1.2.3.4
 
     tnet1:
         ipam:
             driver: default
             config:
-                - subnet: 111.162.23.0/2
-                  gateway: 111.162.23.4
+                - subnet: 198.13.13.0/16
+                  gateway: 198.13.13.1

@@ -6,12 +6,12 @@ Attaching to computernetworks_tn1_1
 [36mtn1_1  |[0m        valid_lft forever preferred_lft forever
 [36mtn1_1  |[0m     inet6 ::1/128 scope host 
 [36mtn1_1  |[0m        valid_lft forever preferred_lft forever
-[36mtn1_1  |[0m 26: eth0@if27: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default 
-[36mtn1_1  |[0m     link/ether 02:42:40:00:00:01 brd ff:ff:ff:ff:ff:ff link-netnsid 0
-[36mtn1_1  |[0m     inet 64.0.0.1/2 scope global eth0
+[36mtn1_1  |[0m 160: eth0@if161: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default 
+[36mtn1_1  |[0m     link/ether 02:42:c6:0d:00:01 brd ff:ff:ff:ff:ff:ff link-netnsid 0
+[36mtn1_1  |[0m     inet 198.13.0.1/16 scope global eth0
 [36mtn1_1  |[0m        valid_lft forever preferred_lft forever
-[36mtn1_1  |[0m     inet6 fe80::42:40ff:fe00:1/64 scope link tentative 
+[36mtn1_1  |[0m     inet6 fe80::42:c6ff:fe0d:1/64 scope link tentative 
 [36mtn1_1  |[0m        valid_lft forever preferred_lft forever
 [36mtn1_1  |[0m - gateway:
-[36mtn1_1  |[0m default via 111.162.23.4 dev eth0 
-[36mtn1_1  |[0m 64.0.0.0/2 dev eth0 proto kernel scope link src 64.0.0.1 
+[36mtn1_1  |[0m default via 198.13.13.1 dev eth0 
+[36mtn1_1  |[0m 198.13.0.0/16 dev eth0 proto kernel scope link src 198.13.0.1 
